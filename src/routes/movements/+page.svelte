@@ -32,7 +32,7 @@
   <div class="actions"><button class="btn" onclick={() => download('stockroom-movements.csv', movementsCsv(inv.snapshot))}>Export CSV</button></div>
 </div>
 
-<div class="grid two" style="grid-template-columns:minmax(0,1fr) minmax(0,1.5fr)">
+<div class="grid two moves">
   <form class="card" onsubmit={submit} style="display:grid;gap:16px;align-content:start">
     <h2>New movement</h2>
     <fieldset style="border:0;padding:0;margin:0;min-width:0">
